@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 – Dynamic Web Fundamentals - Rafael Lopez</title>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Roboto">
+
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. By Rafael Lopez. Just getting to know me"/>
     <meta name="author" content="Rafael Lopez"/>
+    <script src="scripts/getdates.js" defer> </script>
 </head>
 <body>
     <header>
-        <h1>WDD 131 – Dynamic Web Fundamentals - Rafael Lopez</h1>
+        <h1 class="title">WDD 131 – Dynamic Web Fundamentals - <span>Rafael Lopez</span></h1>
         <nav>
             <a href="https://www.linkedin.com/in/rafaellopez90/">LinkedIn</a>
             <a href="https://byupw.instructure.com/">Canvas</a>
@@ -20,16 +23,19 @@
 
     </header>
     <main>
-        <section>
+        <section class ="card">
             <h2>About Me
             </h2>
-            <p>About me content</p>
-            <h3>Tegucigalpa, Honduras</h3>
-            <p>City and country information</p>
+            <img src="images/profile-pic.jpg" alt="A gif of my wife and I">
+            
+            <p>About me content, test content jdjgkdkask dkfksdkgkds akdhkhkdhk askdhksdhkfa ksdhkhgkdhkghkd </p>
+            <div class="city-desc">
+                <h3>Tegucigalpa, Honduras</h3>
+                <p>City and country information</p>
+            </div>
 
-
-        </section>
-        <section>
+        </section >
+        <section class="card">
             <h2>Web Dev Resources</h2>
             <ul>
                 <li><a href="">Bullet 1</a></li>
@@ -42,7 +48,7 @@
     </main>
 
     <footer>
-        <p><span id="currentyear">ffff</span> My Name Honduras</p>
+        <p>&copy; <span id="currentyear">ffff</span> Rafael Lopez, Honduras</p>
         <p>lastModified - js needed</p>
         
     </footer>

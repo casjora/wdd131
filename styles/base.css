@@ -1,0 +1,69 @@
+.title{
+    font-family: "Sofia";
+
+}
+.title span{
+    color: chocolate;
+}
+
+body {
+    font-family: Roboto,"Sofia", sans-serif;
+    margin: 0;
+  }
+
+
+header {
+    background-color: #f0f0f0; /* Choose your colors */
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Choose your colors */
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #555; /* Choose your colors */
+}
+
+main {
+    max-width: 100%; /* Adjust as needed */
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+h2{
+    margin-top: 0;
+    background-color:darkslategrey;
+    text-align: center;
+    color: #f0f0f0;
+}
+section .card {
+    border: 1px solid #ddd; /* Choose your colors */
+    padding: 1rem;
+}
+
+footer {
+    background-color: #f0f0f0; /* Choose your colors */
+    text-align: center;
+    padding: 1rem;
+}
+
+
+img{
+    float:right;
+}
+
+.city-desc{
+    justify-self: center;
+}
