@@ -35,12 +35,13 @@ nav a:hover {
 }
 
 main {
-    max-width: 960px; /* Adjust as needed */
+    max-width: 1000px;
     margin: 0px auto;
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 1rem;
     padding: 1rem;
+    
 }
 
 h2 {
@@ -69,7 +70,7 @@ footer {
 }
 
 .about-content img {
-    max-width: 300px; /* Adjust as needed */
+    max-width: 300px;
     margin-left: 20px;
 }
 
@@ -90,8 +91,11 @@ h3 {
     text-align: center;
 }
 
-ul{
-    display:inline-block;
-    margin: 0;
+
+
+.card ul{
+    margin-top: 50%;
+    padding: 2rem;
+    
 
 }
