@@ -1,26 +1,25 @@
-.title{
+.title {
     font-family: "Sofia";
-
 }
-.title span{
+
+.title span {
     color: chocolate;
 }
 
 body {
-    font-family: Roboto,"Sofia", sans-serif;
+    font-family: Roboto, "Sofia", sans-serif;
     margin: 0;
-  }
-
+}
 
 header {
-    background-color: #f0f0f0; /* Choose your colors */
+    background-color: #f0f0f0;
     padding: 1rem;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #333; /* Choose your colors */
+    background-color: #333;
     padding: 0.5rem;
 }
 
@@ -28,42 +27,75 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    border-radius: 5px; /* Add rounded corners */
 }
 
 nav a:hover {
-    background-color: #555; /* Choose your colors */
+    background-color: #555;
 }
 
 main {
-    max-width: 100%; /* Adjust as needed */
-    margin: 2rem auto;
+    max-width: 1000px;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 1rem;
     padding: 1rem;
+    
 }
-h2{
+
+h2 {
     margin-top: 0;
-    background-color:darkslategrey;
+    background-color: darkslategrey;
     text-align: center;
     color: #f0f0f0;
+    padding: 10px;
 }
-section .card {
-    border: 1px solid #ddd; /* Choose your colors */
+
+.card {
+    border: 1px solid #ddd;
     padding: 1rem;
 }
 
 footer {
-    background-color: #f0f0f0; /* Choose your colors */
+    background-color: #f0f0f0;
     text-align: center;
     padding: 1rem;
 }
 
-
-img{
-    float:right;
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
 }
 
-.city-desc{
-    justify-self: center;
+.about-content img {
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.city-desc {
+    display: flex;
+    margin-top: 20px;
+    text-align: justify;
+    padding: auto;
+    
+}
+.city-desc img{
+    max-width: 220px; 
+    padding-right: 10px; 
+
+}
+h3 {
+    text-decoration-line: overline;
+    text-align: center;
+}
+
+
+
+.card ul{
+    margin-top: 50%;
+    padding: 2rem;
+    
+
 }
