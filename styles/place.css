@@ -1,0 +1,79 @@
+:root{
+    --main-bg-color: #40e0d0; /* Light blue from the flag */
+    --text-color: #000;
+    --accent-color: #fff; /* White */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    margin: 0;
+    gap: 0;
+    padding: 0;
+
+}
+
+.boxes{
+    background-color: var(--main-bg-color);
+    text-align: center;
+    padding: 10px;
+    color: var(--accent-color);
+
+    
+}
+
+.title{
+    border: 5px solid;  
+    display: grid;  
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: var(--accent-color);
+
+
+
+}
+
+h1{
+    grid-column: 2/3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 5px var(--main-bg-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color:var(--text-color);
+    margin: 0 auto;
+}
+
+.hero-img img{
+    width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 10%;
+    border: 10px solid;
+    position: relative;
+    margin: 1px auto;
+    
+}
+
+.logo::before {
+    content: '\2600'; /* Sun symbol */
+    font-size: 50px;
+    color: var(--accent-color);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}

@@ -15,15 +15,20 @@
     <script src="scripts/getdates.js" defer> </script>
 </head>
 <body>
-    <main>
+    <header>
         <div class="boxes">
-            <h1>HONDURAS</h1>
+            <div class="title"> 
+                <h1>HONDURAS</h1>
+            </div>
         </div>
+    </header>
+    <main>
+
         <div class="hero-img">
             <picture>
                 <source>
                 <source>
-                <img src="" alt="">
+                <img src="images/juana-lainez-small-500.webp" alt="Juana Lainez Hill, Tegucigalpa">
             </picture>
         </div>
 
@@ -32,24 +37,33 @@
                 Data
             </h2>
             <ul>
-                <li>
-
-                </li>
+                <li><strong>Area:</strong> 112,492 km²</li>
+                <li><strong>Population:</strong> 10,656,100</li>
+                <li><strong>Capital:</strong> Tegucigalpa</li>
+                <li><strong>Languages:</strong> Spanish, Garifuna, Miskito, etc</li>
+                <li><strong>Currency:</strong> Lempira (HNL)</li>
+                <li><strong>Timezone:</strong> UTC-6, no daylight savings</li>
+                <li><strong>Calling Code:</strong> +504</li>
+                <li><strong>Internet TLD:</strong> .hn</li> 
             </ul>
         </div>
         <div class="boxes">
             <h2>
                 Weather
             </h2>
-            <img class="logo" src="" alt="">
+            <img class="logo" src="images/weather-icon.svg" alt="">
             <ul>
-                <li> </li>
+                <li><strong>Temperature:</strong> <span id="temperature">25 C</span></li>
+                <li><strong>Wind Speed:</strong> <span id="windspeed">10 km/h</span></li>
+                <li><strong>Wind Chill:</strong> <span id="windchill"></span></li> 
+                
             </ul>
         </div>
     </main>
 
     <footer>
-        
+        <p>&copy; <span id="currentyear"></span> Rafael Lopez, Honduras</p>
+        <p id="lastModified"></p>
     </footer>
     
 </body>
