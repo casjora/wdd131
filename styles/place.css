@@ -43,6 +43,7 @@ h1{
     padding-right: 1rem;
     color:var(--text-color);
     margin: 0 auto;
+    font-family: Sofia;
 }
 
 .hero-img img{
