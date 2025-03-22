@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Set temperature and wind speed values that meet the criteria
-    const temperature = 26; // Temperature in Celsius (<= 10)
-    const windSpeed = 13;    // Wind speed in km/h (> 4.8)
-
+    const temperature = 26; 
+    const windSpeed = 13;    
+    
     // Update the displayed values in the HTML
     document.getElementById('temperature').textContent = temperature + ' °C';
     document.getElementById('windspeed').textContent = windSpeed + ' km/h';
