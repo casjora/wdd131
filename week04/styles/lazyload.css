@@ -1,0 +1,9 @@
+.picture{
+    width: 400px;
+    height: 600px;
+    
+}
+
+#picture-container{
+    display: block;
+}
