@@ -1,0 +1,48 @@
+/* media query for larger screens */
+@media (min-width: 600px) {
+
+    #menu{
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        max-width: 2000px;
+        justify-content:center;
+
+        border: black solid;
+
+    }
+    .navigation {
+        flex-direction:row;
+
+
+    }
+    .navigation li {
+        display: block;
+
+    }
+
+
+    #img-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns
+        /* gap: 10px; Add spacing between images  */
+        
+
+    }
+
+    img{
+        border: #36454f solid;
+        width: 100%;
+    
+    }
+
+    .img {
+        width: 100%;
+        display: flex; /* Enable flexbox */
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
+}
