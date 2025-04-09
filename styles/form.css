@@ -15,7 +15,21 @@
     display: flex;
     padding-top: 1rem;
     color: #9c2c13;
-    font-size: .9 rem;
+    font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 select,
+.wf1 textarea {
+    display: block;
+    width: 100%;    
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 0.25rem; 
+    box-sizing: border-box; 
 }
 
 .rating-container{

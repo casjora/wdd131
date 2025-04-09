@@ -1,0 +1,56 @@
+/* Apply these styles only when the screen width is 768px or wider */
+@media (min-width: 768px) {
+
+    .wf1 {
+        max-width: 700px;
+        margin: 2rem auto;
+        border: 1px solid #eee; 
+        padding: 2rem;        
+        border-radius: 8px;
+    }
+
+    .wf1 label:has(input[type="text"]),
+    .wf1 label:has(input[type="date"]),
+    .wf1 label:has(select),
+    .wf1 label:has(textarea) {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        gap: 10px; 
+        align-items: center; 
+        margin-bottom: 1rem; 
+        padding-top: 0; 
+    }
+
+    .wf1 input[type="text"],
+    .wf1 input[type="date"],
+    .wf1 select,
+    .wf1 textarea {
+        margin-top: 0; 
+    }
+
+    .wf1 legend {
+        margin-bottom: 1.5rem; 
+    }
+
+    .wf1 fieldset label:has(input[type="checkbox"]),
+    .wf1 fieldset label:has(input[type="radio"]) {
+         display: flex;
+         grid-template-columns: none; 
+    }
+
+
+    .rating-container {
+         justify-content: center; 
+         gap: 1rem; 
+         padding: 1rem 0; 
+    }
+    .rating-container label {
+        font-size: 1.5rem; 
+    }
+
+
+    #wreview {
+        height: 150px; 
+    }
+
+}

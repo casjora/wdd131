@@ -8,7 +8,8 @@
     <meta name="author" content="Rafael Lopez">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Sofia&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="styles/form-large.css">
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer> </script>
     <script src="scripts/getdates.js" defer> </script>
@@ -26,35 +27,35 @@
             <fieldset>
                 <legend>Overall Rating</legend>
                 <div class="rating-container">
-                    <label> &#8902; <input type="radio" name="rating" value="1star"></label>
-                    <label> &#8902;&#8902; <input type="radio" name="rating" value="2star"></label>
-                    <label> &#8902;&#8902;&#8902; <input type="radio" name="rating" value="3star"></label>
-                    <label> &#8902;&#8902;&#8902;&#8902; <input type="radio" name="rating" value="4star"></label>
-                    <label> &#8902;&#8902;&#8902;&#8902;&#8902; <input type="radio" name="rating" value="5star"></label>
+                    <label> &#8902; <input type="radio" id="op1" name="rating" value="1star" required></label>
+                    <label> &#8902;&#8902; <input type="radio" id="op2" name="rating" value="2star" required></label>
+                    <label> &#8902;&#8902;&#8902; <input type="radio" id="op3" name="rating" value="3star" required></label>
+                    <label> &#8902;&#8902;&#8902;&#8902; <input type="radio" id="op4" name="rating" value="4star" required></label>
+                    <label> &#8902;&#8902;&#8902;&#8902;&#8902; <input type="radio" id="op5" name="rating" value="5star" required></label>
                 </div>
             </fieldset>
 
             <legend>Date of Installation</legend>
-            <input type="date" name="date" id="date">
+            <input type="date" name="date" id="date" required>
             <fieldset>
 
                 <legend>Which features did you find useful in the product?
                    <span>(Check all that apply)</span> 
                 </legend>
                 
-                    <label><input type="checkbox" id="durability" name="durability" value="">Durability</label>
-                    <label><input type="checkbox" id="easiness" name="easiness" value="">Ease of Use</label>
-                    <label><input type="checkbox" id="performance" name="performance" value="">Performance</label>
-                    <label><input type="checkbox" id="design" name="design" value="">Design</label>
+                    <label><input type="checkbox" id="durability" name="durability" value="durability">Durability</label>
+                    <label><input type="checkbox" id="easiness" name="easiness" value="easiness">Ease of Use</label>
+                    <label><input type="checkbox" id="performance" name="performance" value="performance">Performance</label>
+                    <label><input type="checkbox" id="design" name="design" value="design">Design</label>
             </fieldset>
             <fieldset> 
-                <legend>Written Review <span>(optional)</span></legend>
+                <label>Written Review <span>(optional)</span></label>
                 <textarea name="wreview" id="wreview"></textarea>
             </fieldset>
 
             <fieldset> 
-                <legend>Your name <span>(optional)</span></legend>
-                <input type="text" id="full name" name="name">
+                <label>Your name <span>(optional)</span></label>
+                <input type="text" id="fullName" name="name">
             </fieldset>
 
             <input type="submit" value="Share My Review">
