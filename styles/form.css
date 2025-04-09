@@ -1,0 +1,39 @@
+.wf1 fieldset{
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 legend{
+    color: #31437e;
+    padding: 0 0 0.5rem 0;
+    margin-bottom: 0.8rem;
+}
+
+.wf1 label{
+    display: flex;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .9 rem;
+}
+
+.rating-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    width: 100%; 
+    padding: 0.5rem 0;
+}
+
+.rating-container label {
+    display: flex;             
+    flex-direction: column;    
+    align-items: center;       
+    color: #555;             
+    font-size: 1.3rem;        
+    cursor: pointer;
+    margin: 0 0.2rem;          
+    padding: 0;               
+    padding-top: 0;           
+}

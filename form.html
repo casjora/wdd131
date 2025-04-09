@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="Product Review Form practice">
+    <meta name="author" content="Rafael Lopez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Sofia&display=swap">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer> </script>
+    <script src="scripts/getdates.js" defer> </script>
+</head>
+
+<body>
+    <main>
+        <h1>Product Review</h1>
+        <form method="get" action="review.html" class="wf1">
+            <label>Product Name 
+                <select name="product" id="product" required>
+                    <option value="" selected disabled>Choose a Product &#9662</option>
+                </select>
+            </label>
+            <fieldset>
+                <legend>Overall Rating</legend>
+                <div class="rating-container">
+                    <label> &#8902; <input type="radio" name="rating" value="1star"></label>
+                    <label> &#8902;&#8902; <input type="radio" name="rating" value="2star"></label>
+                    <label> &#8902;&#8902;&#8902; <input type="radio" name="rating" value="3star"></label>
+                    <label> &#8902;&#8902;&#8902;&#8902; <input type="radio" name="rating" value="4star"></label>
+                    <label> &#8902;&#8902;&#8902;&#8902;&#8902; <input type="radio" name="rating" value="5star"></label>
+                </div>
+            </fieldset>
+
+            <legend>Date of Installation</legend>
+            <input type="date" name="date" id="date">
+            <fieldset>
+
+                <legend>Which features did you find useful in the product?
+                   <span>(Check all that apply)</span> 
+                </legend>
+                
+                    <label><input type="checkbox" id="durability" name="durability" value="">Durability</label>
+                    <label><input type="checkbox" id="easiness" name="easiness" value="">Ease of Use</label>
+                    <label><input type="checkbox" id="performance" name="performance" value="">Performance</label>
+                    <label><input type="checkbox" id="design" name="design" value="">Design</label>
+            </fieldset>
+            <fieldset> 
+                <legend>Written Review <span>(optional)</span></legend>
+                <textarea name="wreview" id="wreview"></textarea>
+            </fieldset>
+
+            <fieldset> 
+                <legend>Your name <span>(optional)</span></legend>
+                <input type="text" id="full name" name="name">
+            </fieldset>
+
+            <input type="submit" value="Share My Review">
+
+        </form>
+
+        <footer>
+            <p>&copy; <span id="currentyear"></span> Rafael Lopez, Honduras</p>
+            <p id="lastModified"></p>
+        </footer>
+    </main>
+</body>
+</html>
