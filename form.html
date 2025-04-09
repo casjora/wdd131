@@ -6,11 +6,12 @@
     <title>Product Review Form</title>
     <meta name="description" content="Product Review Form practice">
     <meta name="author" content="Rafael Lopez">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
-    <link rel="stylesheet" href="styles/form-large.css">
-    <link rel="stylesheet" href="styles/form.css">
+
     <script src="scripts/form.js" defer> </script>
     <script src="scripts/getdates.js" defer> </script>
 </head>
@@ -21,7 +22,7 @@
         <form method="get" action="review.html" class="wf1">
             <label>Product Name 
                 <select name="product" id="product" required>
-                    <option value="" selected disabled>Choose a Product &#9662</option>
+                    <option value="" selected disabled>Choose a Product &#9662;</option>
                 </select>
             </label>
             <fieldset>
@@ -35,7 +36,7 @@
                 </div>
             </fieldset>
 
-            <legend>Date of Installation</legend>
+            <label>Date of Installation</label>
             <input type="date" name="date" id="date" required>
             <fieldset>
 
