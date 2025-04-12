@@ -12,6 +12,10 @@ html{
     font-size: 1rem;
 }
 
+main{
+    margin-top: 125px;
+}
+
 body{
     font-family: var(--body-font);
     color: var(--secondary-color);
@@ -116,6 +120,10 @@ nav a:hover{
     border:5px ridge black;
     border-radius: 10px;
     background-color: #E0A800;
+    position: fixed;
+    top: 5px;
+    width: 92%;
+    margin-right: 50px;
 }
 .logo-placeholder img{
     /* border: 2px solid black; */
@@ -140,8 +148,10 @@ nav a:hover{
 }
 
 .qaPhoto{
-    border: 2px solid black;
+    border: 10px inset black;
     text-align: center;
+    border-radius: 20px;
+    margin-right: 10px;
 
 }
 
@@ -152,12 +162,19 @@ nav a:hover{
 
 }
 
+.qaPhoto img:hover{
+    transform: scale(1.1);
+    transition: transform 1.5s;
+
+}
+
 .img-container {
     display: flex;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
-    max-width: 550px;
+    max-width: 425px;
+    margin-bottom: 70px;
 
 }
 
