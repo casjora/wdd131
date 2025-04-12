@@ -1,0 +1,43 @@
+@media (min-width: 600px) {
+    body{
+        max-width: 98%;
+    }
+    
+    #menu{
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        max-width: 2000px;
+        justify-content:center;
+        background-color: var(--accent-color);
+
+
+    }
+    .navigation {
+        flex-direction:row;
+
+
+    }
+    .navigation li {
+        display: block;
+
+    }
+
+
+    .logo-placeholder {
+        width: 98%;
+    }
+
+    .img-container {
+        display: flex;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+        max-width: 98%;
+        margin-bottom: 70px;
+    
+    }
+        
+}
