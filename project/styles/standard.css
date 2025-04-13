@@ -204,3 +204,15 @@ nav a:hover{
 .label{
     font-weight: bolder;
 }
+
+.joinMain {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+
+.tyMessage{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
