@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interpreter Toolbox - Join Us</title>
+    <title>Interpreter Toolbox - Subscribe</title>
     <meta name="description" content="Product Review Form practice">
     <meta name="author" content="Rafael Lopez">
     <link rel="stylesheet" href="styles/standard.css">
@@ -38,7 +38,50 @@
 
 <!-- Section for OPI Intro, make an itro to protocols importance and  -->
 
-        <section>
+        <section class="join-placeholder">
+            <form method="get" action="review.html" class="wf1">
+                <label>Product Name 
+                    <select name="product" id="product" required>
+                        <option value="" selected disabled>Choose a Product &#9662;</option>
+                    </select>
+                </label>
+                <fieldset>
+                    <legend>Overall Rating</legend>
+                    <div class="rating-container">
+                        <label> &#8902; <input type="radio" id="op1" name="rating" value="1star" required></label>
+                        <label> &#8902;&#8902; <input type="radio" id="op2" name="rating" value="2star" required></label>
+                        <label> &#8902;&#8902;&#8902; <input type="radio" id="op3" name="rating" value="3star" required></label>
+                        <label> &#8902;&#8902;&#8902;&#8902; <input type="radio" id="op4" name="rating" value="4star" required></label>
+                        <label> &#8902;&#8902;&#8902;&#8902;&#8902; <input type="radio" id="op5" name="rating" value="5star" required></label>
+                    </div>
+                </fieldset>
+    
+                <label>Date of Installation</label>
+                <input type="date" name="date" id="date" required>
+                <fieldset>
+    
+                    <legend>Which features did you find useful in the product?
+                       <span>(Check all that apply)</span> 
+                    </legend>
+                    
+                        <label><input type="checkbox" id="durability" name="durability" value="durability">Durability</label>
+                        <label><input type="checkbox" id="easiness" name="easiness" value="easiness">Ease of Use</label>
+                        <label><input type="checkbox" id="performance" name="performance" value="performance">Performance</label>
+                        <label><input type="checkbox" id="design" name="design" value="design">Design</label>
+                </fieldset>
+                <fieldset> 
+                    <label>Written Review <span>(optional)</span></label>
+                    <textarea name="wreview" id="wreview"></textarea>
+                </fieldset>
+    
+                <fieldset> 
+                    <label>Your name <span>(optional)</span></label>
+                    <input type="text" id="fullName" name="name">
+                </fieldset>
+    
+                <input type="submit" value="Share My Review">
+    
+            </form>
 
         </section>
         <!-- Intro to QA Team, photos with QAs info -->
