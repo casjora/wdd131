@@ -155,13 +155,14 @@ nav a:hover{
     text-align: center;
     border-radius: 20px;
     margin-right: 10px;
+    width: 90%;
 
 }
 
 .qaPhoto img{
-    margin-top: 2px;
+    margin-top: 5px;
     margin-bottom: 5px;
-    max-width: 20%;
+    max-width: 50%;
 
 }
 
@@ -172,7 +173,8 @@ nav a:hover{
 }
 
 .img-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -185,7 +187,7 @@ nav a:hover{
     text-align: center;
     /* Add a width constraint to the container if it doesn't have one */
     /* Examples (choose one or adjust as needed): */
-    width: 400px;        /* Make it take the full width of its parent */
+    width: auto;        /* Make it take the full width of its parent */
     max-width: 600px;   /* Or set a maximum width */
     /* border: 1px solid red; /* TEMPORARY: Add border to visualize container */
 }
@@ -199,3 +201,6 @@ nav a:hover{
 }
 
 
+.label{
+    font-weight: bolder;
+}
